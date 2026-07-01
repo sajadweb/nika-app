@@ -16,9 +16,12 @@ Nika uses the Gin web framework for routing and middleware and relies on Go modu
     `cd nika-app`
 3. Download dependencies:
     `go mod download`
-4. Run for development: 
-     `go install github.com/air-verse/air@latest`
-     `air` 
+4. Run for production:  
+     `go install github.com/sajadweb/nika-cli@latest`
+     `nika start .` 
+5. Run for development: 
+     `go install github.com/sajadweb/nika-cli@latest`
+     `nika start . --watch` 
 
 ## Environment Configuration
 Configuration is read from environment variables. Common examples:
